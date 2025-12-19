@@ -21,6 +21,7 @@ In real-world applications such as computer vision, medical imaging, and video a
 Each image pixel is mapped to a CUDA thread using a two-dimensional grid and block configuration. The Sobel operator computes horizontal and vertical gradients for each pixel, and the GPU executes thousands of these computations concurrently.
 
 ## Build Instructions
+
 ### Requirements
 - NVIDIA GPU
 - CUDA Toolkit installed
